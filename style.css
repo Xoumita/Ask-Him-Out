@@ -36,7 +36,7 @@ html,body{
     object-fit: cover;
 }
 button{
-    position: absolute;
+    
     padding: 10px 20px;
     background: linear-gradient(to top right, rgb(0, 0, 177), lightblue);
     border: none;
@@ -44,14 +44,6 @@ button{
     font-size: 1.2rem;
     font-weight: 600;
     color: white;
-    top: 72%;
-    /* left: 45%; */
-    margin: 30px 50px;
+    margin: 30px;
     transition: 0.5s;
-}
-#yes{
-    left: 20%;
-}
-#no{
-    left: 45%;
 }

@@ -14,9 +14,11 @@ yesBtn.addEventListener("click", function(){
 })
 
 NoBtn.addEventListener("mouseover", function(){
+    NoBtn.style.position = "absolute"
     moveBtnRandomly()
 })
 NoBtn.addEventListener("click", function(){
+    NoBtn.style.position = "absolute"
     moveBtnRandomly()
 })
 function moveBtnRandomly() {
